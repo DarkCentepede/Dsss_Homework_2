@@ -1,5 +1,5 @@
 import unittest
-from math_quiz import generate_random_integer, generate_random_operator, question_generator
+from math_quiz.math_quiz import generate_random_integer, generate_random_operator, question_generator
 
 
 class TestMathGame(unittest.TestCase):
