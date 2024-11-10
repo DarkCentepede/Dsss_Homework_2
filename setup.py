@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "math-quiz=math_quiz.quiz:math_quiz",  # command name = package.module:function
+            "math-quiz=math_quiz.math_quiz:math_quiz",  # command name = package.module:function
         ]
     },
     author="Ramsundar Yellamelli",

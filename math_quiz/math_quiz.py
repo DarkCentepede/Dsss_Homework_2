@@ -1,5 +1,5 @@
 import random
-
+import time
 
 def generate_random_integer(min, max):
     """
@@ -50,6 +50,9 @@ def math_quiz():
     if total_score == total_questions: print("\nCongratulations! You are excellent at math!\n")
     elif total_score > total_questions * 0.5 and total_score < total_questions: print("You are good, but there's room for improvement.") 
     else: print("You need to practice your basic math skills.")
+
+    print("\nThank you for playing \n This window closes automatically in 10 seconds")
+    time.sleep(10)
 
 if __name__ == "__main__":
     math_quiz()
